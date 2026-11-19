@@ -5,14 +5,13 @@
     <style>
       @import "./src/style.css";
     </style>
-    <title>JSDev</title>
+            <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+            <script src="https://cdn.datatables.net/2.0.3/js/dataTables.js"></script>
+            <link href="https://cdn.datatables.net/2.0.3/css/dataTables.dataTables.css" rel="stylesheet">
   </head>
   <body>
-    <h1>Alright. You're set.</h1>
-      <h2 class="tintedBlackLeft">Now build something amazing!</h2>
-      <p>JS in FM is amazing</p>
-    <button type="button">Click Me!</button>
 
+    <table id="table" class="display compact nowrap" style="width:100%"></table>
     <script type="module">
       import "./src/index.js";
     </script>
